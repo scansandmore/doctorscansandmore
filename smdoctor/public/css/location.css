@@ -1,0 +1,25 @@
+.location_div{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 12px;
+}
+.MuiOutlinedInput-root{
+    border-radius: 40px !important;
+    
+}
+.MuiOutlinedInput-input{
+    font-size: 13px !important;
+}
+.MuiInputLabel-root{
+    font-size: 13px !important;
+}
+.css-4crs3v-MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-input{
+    padding: 0 !important;
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+    line-height: 1.8px !important;
+    overflow: visible !important;
+}
+.css-wj6mtw-MuiAutocomplete-root .MuiOutlinedInput-root{
+    padding: 0 !important;
+}

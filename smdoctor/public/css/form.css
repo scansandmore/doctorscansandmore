@@ -1,0 +1,65 @@
+.MuiOutlinedInput-root{
+    border-radius: 4px !important;
+}
+.form-data{
+    display: flex;
+    flex-direction: row;
+    margin-left: 18px !important;
+    margin-top: 25px !important;
+    justify-content: space-between;
+    margin-right: 18px !important;
+    flex-wrap: wrap;
+}
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+    width: 250px !important;
+}
+.formline2{
+    margin-top: 15px !important;
+    padding: 0 !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.agefield{
+    width: 50px !important;
+}
+.dateofbirth{
+    margin-left: 12px !important;
+    min-width: 150px !important;
+    max-width: 0 !important;
+    
+}
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root{
+    width: 150px;
+}
+.gender{
+    margin-left: 12px;
+    min-width: 98px;
+}
+#demo-simple-select-label{
+    margin-left: 10px;
+}
+.formline3{
+    margin-top: 15px;
+}
+.textfield-email{
+    min-width: 323px !important ;
+}
+.formline4{
+    margin-top: 15px;
+}
+.textfield-number{
+    min-width: 323px !important ;
+}
+.formline5{
+    margin-top: 15px;
+    height: 150px;
+}
+.scandropdown{
+    min-width: 323px !important;
+    block-size: 50px !important;
+}
+.submitbutton{
+    margin-top: 120px !important;
+    float: right;
+}

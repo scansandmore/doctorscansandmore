@@ -1,0 +1,21 @@
+.register-patient{
+   margin-top: 40px;
+   margin-left: 12px !important;
+   margin-right: 12px !important ;
+   display: flex;
+   align-content: space-around !important;
+   position: relative;
+   
+}
+.css-sghohy-MuiButtonBase-root-MuiButton-root{
+    border-radius: 10px !important;
+    height: 40px !important;
+    width: 180px !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    padding: 10px !important;
+    letter-spacing: 0;  
+}
+.viewreports{
+    margin-left: 50px !important;
+}
