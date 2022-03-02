@@ -1,0 +1,11 @@
+.user-data-card{
+    display: flex;
+    flex-direction: column;
+}
+.user-name{
+    font-size: 13px;
+    font-weight: 600;
+}
+.userinfo{
+    display: block;
+}
