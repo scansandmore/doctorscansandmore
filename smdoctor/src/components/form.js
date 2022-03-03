@@ -12,13 +12,13 @@ import Button from '@mui/material/Button'
 
 const radiologyscans = [
   { title: 'MRI Scan' },
-  { title: 'MRI Scan' },
-  { title: 'MRI Scan' },
-  { title: 'MRI Scan' },
-  { title: 'MRI Scan' },
-  { title: 'MRI Scan' },
-  { title: 'MRI Scan' },
-  { title: 'MRI Scan' },
+  { title: 'CT SCAN' },
+  { title: 'ECG' },
+  { title: 'EEG' },
+  { title: 'ECHO' },
+  { title: 'EMG/NCV' },
+  { title: 'ULTRASOUND' },
+  { title: 'PFT' },
 ];
 
 function Form() {
@@ -36,6 +36,7 @@ function Form() {
     
     <div className='form-data'>
         <Box className="box-form">
+        <div className='formline1'>
       <FormControl>
         <InputLabel id="demo-simple-select-label">*</InputLabel>
         <Select
@@ -50,12 +51,13 @@ function Form() {
           <MenuItem value={"Mrs"}>Mrs</MenuItem>
         </Select>
       </FormControl>
-    </Box>
-        <TextField className='textfield-form'
+    
+        <TextField className='textfield-patient_name'
           required
           id="outlined-required"
           label="Patient Name"
         />
+        </div>
         <div className='formline2'>
       <TextField className='agefield' id="outlined-basic" label="Age" variant="outlined" />
       <BasicDatePicker />
@@ -89,8 +91,9 @@ function Form() {
         />
       </div>
       <div className='formline5'>
-      <Autocomplete className='scandropdown' fullWidth
+      <Autocomplete className='scandropdown'
         multiple
+        // size="medium"
         id="tags-outlined"
         options={radiologyscans}
         getOptionLabel={(option) => option.title}
@@ -107,6 +110,7 @@ function Form() {
           Submit & Proceed
         </Button>
       </div>
+      </Box>
     </div>
   )
 }

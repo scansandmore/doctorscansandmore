@@ -1,43 +1,51 @@
-.MuiOutlinedInput-root{
-    border-radius: 4px !important;
+.box-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
-.form-data{
+.MuiOutlinedInput-root{
+    border-radius: 15px !important;
+}
+.formline1{
+    margin-top: 15px !important;
+    padding: 0 !important;
     display: flex;
     flex-direction: row;
-    margin-left: 18px !important;
+    justify-content: space-around;
+    width: max-content !important;
+}
+.textfield-patient_name{
+    margin-left: 15px !important;
+    width: 323px;
+}
+.form-data{
+    display: flex !important;
+    flex-direction: row !important;
     margin-top: 25px !important;
-    justify-content: space-between;
-    margin-right: 18px !important;
-    flex-wrap: wrap;
+    justify-content: space-around !important;
 }
-.css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
-    width: 250px !important;
-}
+
 .formline2{
     margin-top: 15px !important;
     padding: 0 !important;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: inherit;
 }
 .agefield{
     width: 50px !important;
 }
 .dateofbirth{
-    margin-left: 12px !important;
-    min-width: 150px !important;
-    max-width: 0 !important;
+    min-width: 200px !important;
+    margin-left: 15px;
     
 }
 .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root{
-    width: 150px;
+    width: 180px;
 }
 .gender{
-    margin-left: 12px;
     min-width: 98px;
-}
-#demo-simple-select-label{
-    margin-left: 10px;
 }
 .formline3{
     margin-top: 15px;
@@ -52,14 +60,13 @@
     min-width: 323px !important ;
 }
 .formline5{
+    width: inherit !important;
     margin-top: 15px;
-    height: 150px;
-}
-.scandropdown{
-    min-width: 323px !important;
-    block-size: 50px !important;
 }
 .submitbutton{
     margin-top: 120px !important;
     float: right;
+}
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+    width: 23px !important;
 }
